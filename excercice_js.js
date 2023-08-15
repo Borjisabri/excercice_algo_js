@@ -55,7 +55,23 @@ console.log('newArray : ',newArray);*/
 // console.log(numbers.every(a => a>1));
 
 //PRACTICE 7
-//const bearArray = ["bear", "beard", "bearstudio", "bears"];
+// const bearArray = ["bear", "beard", "bearstudio", "bears"];
+
+// const xx = (element, index) => element + index;
+// const map = (myArrayParam, callback) => {
+//   const tab = [];
+//   for (let index = 0; index < myArrayParam.length; index++) {
+//     const element = myArrayParam[index];
+//     tab.push(callback(element, index));
+//   }
+//   return tab;
+// };
+
+// const newArray = map(bearArray, xx);
+// const newArray2 = bearArray.map(xx);
+// console.log(newArray );
+// console.log(newArray2 );
+
 // console.log(bearArray.some(a => a.includes('sabri')));
 // let check=false;
 // bearArray.forEach((a) => {
@@ -66,32 +82,28 @@ console.log('newArray : ',newArray);*/
 // });
 // console.log(check);
 
-
-//function count() {}
+// function count() {}
 // let countDown = 6;
-// const count = () => {
+// const count = () =>
 //   if (countDown >= 0) {
 //     console.log(countDown);
 //     countDown--;
 //   } else {
 //     console.log("terminer");
 //     clearInterval(interval);
-//   }
-// };
+//   }ww
 // const interval = setInterval(count, 2000);
 
 //practice 9
 
-const object={
-name: "sabri",
-age:"22",
-address:{
-    city:'cairo',
-    country : 'egypt',    
-}
-}
-console.log(Object.keys(object).length);
-console.log(Object.entries(object));
-
-
+// const object={
+// name: "sabri",
+// age:"22",
+// address:{
+//     city:'cairo',
+//     country : 'egypt',
+// }
+// }
+// console.log(Object.keys(object).length);
+// console.log(Object.entries(object));
 

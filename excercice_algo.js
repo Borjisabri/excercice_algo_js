@@ -146,23 +146,43 @@ if (n >= 10) {
 console.log("la somme est :", somme);*/
 
 //excercice 14
-/**function checkDate(annee,jour,mois) {
-    if (((jour>0)&&(jour<32))&&((mois>0)&&(mois<13))&&(annee>0 && annee.toString().length===4)) {
-        return true
-    }
-    return false
-}
-const annee = 144;
-const mois = 3;
-const jour = 31;
-const isBisextille=(annee%4==0)&&(annee%100!=0)||(annee % 400 == 0);
-if (checkDate(annee,jour,mois)===false) {
-    console.log("La date est incorrecte");
-} else if (((mois==2)&&(isBisextille)&&(jour>29))||((mois==2)&&(!isBisextille)&&(jour>28))) {
-    console.log("La date est incorrecte");
-} else if ((mois==4)||(mois==6)||(mois==9)||(mois==11)&&(jour>30)) {
-    console.log("La date est incorrecte");
-} else {
-    console.log("La date est valide");
-}*/
+// unction checkDate(annee,jour,mois) {
+//     if (((jour>0)&&(jour<32))&&((mois>0)&&(mois<13))&&(annee>0 && annee.toString().length===4)) {
+//         return true
+//     }
+//     return false
+// }
+// const annee = 144;
+// const mois = 3;
+// const jour = 31;
+// const isBisextille=(annee%4==0)&&(annee%100!=0)||(annee % 400 == 0);
+// if (checkDate(annee,jour,mois)===false) {
+//     console.log("La date est incorrecte");
+// } else if (((mois==2)&&(isBisextille)&&(jour>29))||((mois==2)&&(!isBisextille)&&(jour>28))) {
+//     console.log("La date est incorrecte");
+// } else if ((mois==4)||(mois==6)||(mois==9)||(mois==11)&&(jour>30)) {
+//     console.log("La date est incorrecte");
+// } else {
+//     console.log("La date est valide");
+// }
+
+//STRUCTURE ITÉRATIVE
+// Tableau
+// Excercice 4
+const numArray = [5, 10, 13, 4, 5];
+//const emptyArray = [...numArray];
+const emptyArray = [];
+
+//const newNumArray = numArray.map((w) => emptyArray.push(w));
+// for (let i = 0; i < numArray.length; i++) {
+//     emptyArray.push(numArray[i])
+
+// }
+
+// for (let i = 0; i < numArray.length /2; i++) {
+//   let x = numArray[i];
+//   emptyArray[i] = numArray[numArray.length - 1 - i];
+//   emptyArray[numArray.length - 1 - i] = x;
+// }
+// console.log(emptyArray);
 
