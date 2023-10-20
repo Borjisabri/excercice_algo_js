@@ -1,16 +1,15 @@
 // exercice 1
 /** console.log('Bonjour') */
 
-//exercice 2
+//exercice 2 sabri
 /**const prenom="jean";
 console.log('bonjour ',prenom);*/
 
-//excercice 3
+//excercice 3 omar 
 /**const prenom="jean";
 const age = 24;
-console.log("Je m’appelle",prenom,"et j’ai",age,"ans");*/
 
-//excercice 6
+//excercice 15
 /**const x=16;
 const y=2;
 console.log(x*y);*/
