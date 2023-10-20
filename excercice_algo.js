@@ -13,7 +13,7 @@ const age = 3000;
 /**const x=16;
 const y=2;
 console.log(x*y);*/
-
+//console.log("new change 2")
 //excercice 8
 /**var a,b,x;
 a=4;
