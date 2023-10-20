@@ -7,8 +7,8 @@ console.log('bonjour ',prenom);*/
 
 //excercice 3 omar 
 /**const prenom="jean";
-const age = 24;
-
+const age = 7888;
+//new comment 
 //excercice 15
 /**const x=16;
 const y=2;
