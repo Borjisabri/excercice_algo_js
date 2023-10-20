@@ -7,7 +7,7 @@ console.log('bonjour ',prenom);*/
 
 //excercice 3
 /**const prenom="jean";
-const age = 24;
+const age = 3000;
 console.log("Je m’appelle",prenom,"et j’ai",age,"ans");*/
 
 //excercice 6
